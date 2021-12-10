@@ -9,6 +9,12 @@
   "author": "markov-avl",
   "license": "ISC",
   "dependencies": {
+    "css-loader": "^6.5.1",
+    "path": "^0.12.7",
+    "style-loader": "^3.3.1",
     "webpack": "^5.65.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.1"
   }
 }

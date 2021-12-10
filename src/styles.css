@@ -9,24 +9,14 @@ body {
 #hello {
     cursor: pointer;
     font-size: 100pt;
-    transition: 2s;
+    animation-name: none;
+    animation-duration: 1s;
+    animation-timing-function: linear;
 }
 
 @keyframes rotate {
-    0% {
-        rotation: 0;
-    }
-    25% {
-        rotation: 45deg;
-    }
-    50% {
-        rotation: 135deg;
-    }
-    75% {
-        rotation: 270deg;
-    }
     100% {
-        rotation: 360deg;
+        transform: rotate(360deg);
     }
 }
 

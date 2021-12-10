@@ -1,0 +1,14 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "Testing webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "markov-avl",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.65.0"
+  }
+}

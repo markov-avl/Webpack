@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#hello {
+    cursor: pointer;
+    font-size: 100pt;
+    transition: 2s;
+}
+
+@keyframes rotate {
+    0% {
+        rotation: 0;
+    }
+    25% {
+        rotation: 45deg;
+    }
+    50% {
+        rotation: 135deg;
+    }
+    75% {
+        rotation: 270deg;
+    }
+    100% {
+        rotation: 360deg;
+    }
+}
+
+::selection {
+    background: transparent;
+}
+::-moz-selection {
+    background: transparent;
+}
